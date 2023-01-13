@@ -3,7 +3,9 @@ let game = fs.readFileSync("test.txt").toString().split("\r");
 game = game.toString().split("\n");
 let fixedGame = game.toString().split(" ");
 fixedGame = fixedGame.toString().split(",")
+
 fixedGame = fixedGame.filter(elm => elm);
+
 
 // X = 0P. LOOSE Y = 3P. TIE Z = 6P. WIN
 
