@@ -46,7 +46,6 @@ function findCommonItem2(rucksack) {
     return filtered;
 }
 
-
 const c = function () {
     var b = 0;
     var a = findCommonItem2(rucksack);
