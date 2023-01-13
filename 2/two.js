@@ -10,7 +10,6 @@ fixedGame = fixedGame.filter(elm => elm);
 // X = 0P. LOOSE Y = 3P. TIE Z = 6P. WIN
 
 var sum = [];
-
 while (fixedGame.length > 0) {
     if (fixedGame[1] == 'X') {
         sum.push(0)
