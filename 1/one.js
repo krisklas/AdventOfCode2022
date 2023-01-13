@@ -14,7 +14,6 @@ const sum = caloriesNumber.map(item => item.reduce((current, next) => current + 
 //return highest number
 //convert array to string for math.max to work
 console.log(Math.max(...sum));
-
 //part 2
 //sort from highest to lowest
 const sort = sum.sort((a, b) => b - a);
